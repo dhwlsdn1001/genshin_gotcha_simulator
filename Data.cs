@@ -10,7 +10,7 @@ namespace genshin_gotcha
 {
     class Data
     {
-        public static Dictionary<string, Character> ch_5 = new Dictionary<string, Character>()
+        public static Dictionary<string, Character> ch = new Dictionary<string, Character>()
         {
             ["diluc"] = new Character("다이루크", 5, "남성", "몬드", 0430, "불", "양손검"),
             ["mona"] = new Character("모나", 5, "여성", "몬드", 0831, "물", "법구"),
@@ -39,38 +39,36 @@ namespace genshin_gotcha
             ["ayato"] = new Character("카미사토 아야토", 5, "남성", "이나즈마", 0326, "물", "한손검"),
             ["yelan"] = new Character("야란", 5, "여성", "리월", 0420, "물", "활"),
             ["cyno"] = new Character("사이노", 5, "남성", "수메르", 0623, "번개", "장병기"),
-        };
-        public static List<Character> ch_4 = new List<Character>()
-        {
-            new Character("엠버", 4, "여성", "몬드", 0810, "불", "활"),
-            new Character("케이아", 4, "남성", "몬드", 1130, "얼음", "한손검"),
-            new Character("리사", 4, "여성", "몬드", 0609, "번개", "법구"),
-            new Character("바바라", 4, "여성", "몬드", 0229, "물", "법구"),
-            new Character("피슬", 4, "여성", "몬드", 0527, "번개", "활"),
-            new Character("향릉", 4, "여성", "리월", 1102, "불", "장병기"),
-            new Character("행추", 4, "남성", "리월", 1009, "물", "한손검"),
-            new Character("노엘", 4, "여성", "몬드", 0321, "바위", "양손검"),
-            new Character("설탕", 4, "여성", "몬드", 1126, "바람", "법구"),
-            new Character("북두", 4, "여성", "리월", 0214, "번개", "양손검"),
-            new Character("응광", 4, "여성", "리월", 0826, "바위", "법구"),
-            new Character("레이저", 4, "남성", "몬드", 0909, "번개", "양손검"),
-            new Character("증운", 4, "남성", "리월", 0907, "얼음", "양손검"),
-            new Character("베넷", 4, "남성", "몬드", 0229, "불", "한손검"),
 
-            new Character("디오나", 4, "여성", "몬드", 0229, "얼음", "활"),
-            new Character("신염", 4, "여성", "리월", 1016, "불", "양손검"),
-            new Character("로자리아", 4, "여성", "몬드", 0124, "얼음", "장병기"),
-            new Character("연비", 4, "여성", "리월", 0728, "불", "법구"),
-            new Character("사유", 4, "여성", "이나즈마", 1019, "바람", "양손검"),
-            new Character("쿠죠 사라", 4, "여성", "이나즈마", 0714, "번개", "활"),
-            new Character("토마", 4, "남성", "이나즈마", 0109, "불", "장병기"),
-            new Character("고로", 4, "남성", "이나즈마", 0518, "바위", "활"),
-            new Character("운근", 4, "여성", "리월", 0521, "바위", "장병기"),
-            new Character("쿠키 시노부", 4, "여성", "이나즈마", 0727, "번개", "한손검"),
-            new Character("시카노인 헤이조", 4, "남성", "이나즈마", 0724, "바람", "법구"),
-            new Character("콜레이", 4, "여성", "수메르", 0508, "풀", "활"),
-            new Character("도리", 4, "여성", "수메르", 1221, "번개", "양손검"),
-            new Character("캔디스", 4, "여성", "수메르", 0503, "물", "장병기"),
+            ["amber"] = new Character("엠버", 4, "여성", "몬드", 0810, "불", "활"),
+            ["kaeya"] = new Character("케이아", 4, "남성", "몬드", 1130, "얼음", "한손검"),
+            ["lisa"] = new Character("리사", 4, "여성", "몬드", 0609, "번개", "법구"),
+            ["barbara"] = new Character("바바라", 4, "여성", "몬드", 0229, "물", "법구"),
+            ["fischl"] = new Character("피슬", 4, "여성", "몬드", 0527, "번개", "활"),
+            ["xiangling"] = new Character("향릉", 4, "여성", "리월", 1102, "불", "장병기"),
+            ["xingqiu"] = new Character("행추", 4, "남성", "리월", 1009, "물", "한손검"),
+            ["noelle"] = new Character("노엘", 4, "여성", "몬드", 0321, "바위", "양손검"),
+            ["sucrose"] = new Character("설탕", 4, "여성", "몬드", 1126, "바람", "법구"),
+            ["beidou"] = new Character("북두", 4, "여성", "리월", 0214, "번개", "양손검"),
+            ["ningguang"] = new Character("응광", 4, "여성", "리월", 0826, "바위", "법구"),
+            ["razor"] = new Character("레이저", 4, "남성", "몬드", 0909, "번개", "양손검"),
+            ["chongyun"] = new Character("증운", 4, "남성", "리월", 0907, "얼음", "양손검"),
+            ["bennett"] = new Character("베넷", 4, "남성", "몬드", 0229, "불", "한손검"),
+
+            ["diona"] = new Character("디오나", 4, "여성", "몬드", 0229, "얼음", "활"),
+            ["xinyan"] = new Character("신염", 4, "여성", "리월", 1016, "불", "양손검"),
+            ["rosaria"] = new Character("로자리아", 4, "여성", "몬드", 0124, "얼음", "장병기"),
+            ["yanfei"] = new Character("연비", 4, "여성", "리월", 0728, "불", "법구"),
+            ["sayu"] = new Character("사유", 4, "여성", "이나즈마", 1019, "바람", "양손검"),
+            ["sara"] = new Character("쿠죠 사라", 4, "여성", "이나즈마", 0714, "번개", "활"),
+            ["thoma"] = new Character("토마", 4, "남성", "이나즈마", 0109, "불", "장병기"),
+            ["gorou"] = new Character("고로", 4, "남성", "이나즈마", 0518, "바위", "활"),
+            ["yunjin"] = new Character("운근", 4, "여성", "리월", 0521, "바위", "장병기"),
+            ["shinobu"] = new Character("쿠키 시노부", 4, "여성", "이나즈마", 0727, "번개", "한손검"),
+            ["heizou"] = new Character("시카노인 헤이조", 4, "남성", "이나즈마", 0724, "바람", "법구"),
+            ["collei"] = new Character("콜레이", 4, "여성", "수메르", 0508, "풀", "활"),
+            ["dori"] = new Character("도리", 4, "여성", "수메르", 1221, "번개", "양손검"),
+            ["candace"] = new Character("캔디스", 4, "여성", "수메르", 0503, "물", "장병기"),
         };
         public static Dictionary<string, Weapon> wp = new Dictionary<string, Weapon>()
         {
@@ -156,7 +154,37 @@ namespace genshin_gotcha
         };
         public static Dictionary<string, Randombox> rb = new Dictionary<string, Randombox>()
         {
-            ["alwase"] = new Randombox("세상 여행", new List<string> { "diluc", "mona", "jean", "qiqi", "keqing", "tighnari" }, new List<string> {}),
+            ["alwase"] = new Randombox("세상 여행", 
+                new List<string> { "diluc", "mona", "jean", "qiqi", "keqing", "tighnari" }, 
+                new List<string> 
+                {
+                    "amber", "kaeya", "lisa", "barbara", "fischl", "xiangling", "xingqiu",
+                    "noelle", "sucrose", "beidou", "ningguang", "razor", "chongyun", "bennett",
+                    "diona",  "xinyan", "rosaria", "yanfei", "sayu", "sara", "thoma", "gorou",
+                    "yunjin", "shinobu", "heizou", "collei", "dori", "candace"
+                },
+                new List<string>
+                {
+                    "aquila_favonia", "skyward_blade", "wolf's_gravestone", "skyward_pride",
+                    "lost_prayer_to_the_sacred_winds", "skyward_atlas", "primordial_jade_winged_spear",
+                    "skyward_spine", "amos'_bow", "skyward_harp"
+                },
+                new List<string>
+                {
+                    "favonius_sword", "sacrificial_sword", "the_flute", "lion's_roar",
+                    "fevonius_greatsword", "sacrificial_greatsword", "the_bell", "rainslasher",
+                    "favonius_codex", "sacrificial_fragments", "the_widsith", "eye_of_perception",
+                    "favonius_lance", "dragon's_bane", "favonius_warbow", "sacrificial_bow",
+                    "the_stringless", "rust"
+                },
+                new List<string>
+                {
+                    "cool_steel", "harbinger_of_dawn", "skyrider_sword", "ferrous_shadow",
+                    "bloodtainted_greatsword", "debate_club", "black_tassel", "magic guide",
+                    "thrilling_tales_of_dragon_slayers", "emerald_orb", "raven_bow",
+                    "sharpshooter's_oath", "slingshot"
+                }
+            ),
             ["venti_1"] = new Randombox("잔에 담긴 시", new List<string> { "venti" }, new List<string> { "barbara", "fischl", "xiangling" }, 4, 14),
             ["klee_1"] = new Randombox("번쩍이는 화염", new List<string> { "klee" }, new List<string> { "xingqiu", "noelle", "sucrose" }, 4, 14),
             ["tartaglia_1"] = new Randombox("겨울 나라와의 이별", new List<string> { "tartaglia" }, new List<string> { "diona", "beidou", "ningguang" }, 4, 14),
