@@ -11,7 +11,7 @@ using Newtonsoft.Json.Linq;
 
 namespace genshin_gotcha
 {
-    public partial class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
