@@ -1,0 +1,236 @@
+[
+  {
+    "name": "다이루크",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 430,
+    "region": "몬드",
+    "element": "불",
+    "weapone": "양손검"
+  },
+  {
+    "name": "모나",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 831,
+    "region": "몬드",
+    "element": "물",
+    "weapone": "법구"
+  },
+  {
+    "name": "진",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 314,
+    "region": "몬드",
+    "element": "바람",
+    "weapone": "한손검"
+  },
+  {
+    "name": "치치",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 303,
+    "region": "리월",
+    "element": "얼음",
+    "weapone": "한손검"
+  },
+  {
+    "name": "각청",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 1120,
+    "region": "리월",
+    "element": "번개",
+    "weapone": "한손검"
+  },
+  {
+    "name": "타이나리",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 1229,
+    "region": "수메르",
+    "element": "풀",
+    "weapone": "활"
+  },
+  {
+    "name": "벤티",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 616,
+    "region": "몬드",
+    "element": "바람",
+    "weapone": "활"
+  },
+  {
+    "name": "클레",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 727,
+    "region": "몬드",
+    "element": "불",
+    "weapone": "법구"
+  },
+  {
+    "name": "타르탈리아",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 720,
+    "region": "스네즈나야",
+    "element": "물",
+    "weapone": "활"
+  },
+  {
+    "name": "종려",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 1231,
+    "region": "리월",
+    "element": "바위",
+    "weapone": "장병기"
+  },
+  {
+    "name": "알베도",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 913,
+    "region": "몬드",
+    "element": "바위",
+    "weapone": "한손검"
+  },
+  {
+    "name": "감우",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 1202,
+    "region": "리월",
+    "element": "얼음",
+    "weapone": "활"
+  },
+  {
+    "name": "소",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 417,
+    "region": "리월",
+    "element": "바람",
+    "weapone": "장병기"
+  },
+  {
+    "name": "호두",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 715,
+    "region": "리월",
+    "element": "불",
+    "weapone": "장병기"
+  },
+  {
+    "name": "유라",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 1025,
+    "region": "몬드",
+    "element": "얼음",
+    "weapone": "양손검"
+  },
+  {
+    "name": "카에데하라 카즈하",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 1029,
+    "region": "이나즈마",
+    "element": "바람",
+    "weapone": "한손검"
+  },
+  {
+    "name": "카미사토 아야카",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 928,
+    "region": "이나즈마",
+    "element": "얼음",
+    "weapone": "한손검"
+  },
+  {
+    "name": "요이미야",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 621,
+    "region": "이나즈마",
+    "element": "불",
+    "weapone": "활"
+  },
+  {
+    "name": "라이덴 쇼군",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 626,
+    "region": "이나즈마",
+    "element": "번개",
+    "weapone": "장병기"
+  },
+  {
+    "name": "산고노미야 코코미",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 222,
+    "region": "이나즈마",
+    "element": "물",
+    "weapone": "법구"
+  },
+  {
+    "name": "아라타키 이토",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 601,
+    "region": "이나즈마",
+    "element": "바위",
+    "weapone": "양손검"
+  },
+  {
+    "name": "신학",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 310,
+    "region": "리월",
+    "element": "얼음",
+    "weapone": "장병기"
+  },
+  {
+    "name": "야에 미코",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 627,
+    "region": "이나즈마",
+    "element": "번개",
+    "weapone": "법구"
+  },
+  {
+    "name": "카미사토 아야토",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 326,
+    "region": "이나즈마",
+    "element": "물",
+    "weapone": "한손검"
+  },
+  {
+    "name": "야란",
+    "grade": 5,
+    "gender": "여성",
+    "birthday": 420,
+    "region": "리월",
+    "element": "물",
+    "weapone": "활"
+  },
+  {
+    "name": "사이노",
+    "grade": 5,
+    "gender": "남성",
+    "birthday": 623,
+    "region": "수메르",
+    "element": "번개",
+    "weapone": "장병기"
+  }
+]

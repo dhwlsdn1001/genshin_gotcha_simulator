@@ -1,0 +1,254 @@
+[
+  {
+    "name": "엠버",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 810,
+    "region": "몬드",
+    "element": "불",
+    "weapone": "활"
+  },
+  {
+    "name": "케이아",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 1130,
+    "region": "몬드",
+    "element": "얼음",
+    "weapone": "한손검"
+  },
+  {
+    "name": "리사",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 609,
+    "region": "몬드",
+    "element": "번개",
+    "weapone": "법구"
+  },
+  {
+    "name": "바바라",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 229,
+    "region": "몬드",
+    "element": "물",
+    "weapone": "법구"
+  },
+  {
+    "name": "피슬",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 527,
+    "region": "몬드",
+    "element": "번개",
+    "weapone": "활"
+  },
+  {
+    "name": "향릉",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 1102,
+    "region": "리월",
+    "element": "불",
+    "weapone": "장병기"
+  },
+  {
+    "name": "행추",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 1009,
+    "region": "리월",
+    "element": "물",
+    "weapone": "한손검"
+  },
+  {
+    "name": "노엘",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 321,
+    "region": "몬드",
+    "element": "바위",
+    "weapone": "양손검"
+  },
+  {
+    "name": "설탕",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 1126,
+    "region": "몬드",
+    "element": "바람",
+    "weapone": "법구"
+  },
+  {
+    "name": "북두",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 214,
+    "region": "리월",
+    "element": "번개",
+    "weapone": "양손검"
+  },
+  {
+    "name": "응광",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 826,
+    "region": "리월",
+    "element": "바위",
+    "weapone": "법구"
+  },
+  {
+    "name": "레이저",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 909,
+    "region": "몬드",
+    "element": "번개",
+    "weapone": "양손검"
+  },
+  {
+    "name": "증운",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 907,
+    "region": "리월",
+    "element": "얼음",
+    "weapone": "양손검"
+  },
+  {
+    "name": "베넷",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 229,
+    "region": "몬드",
+    "element": "불",
+    "weapone": "한손검"
+  },
+  {
+    "name": "디오나",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 229,
+    "region": "몬드",
+    "element": "얼음",
+    "weapone": "활"
+  },
+  {
+    "name": "신염",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 1016,
+    "region": "리월",
+    "element": "불",
+    "weapone": "양손검"
+  },
+  {
+    "name": "로자리아",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 124,
+    "region": "몬드",
+    "element": "얼음",
+    "weapone": "장병기"
+  },
+  {
+    "name": "연비",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 728,
+    "region": "리월",
+    "element": "불",
+    "weapone": "법구"
+  },
+  {
+    "name": "사유",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 1019,
+    "region": "이나즈마",
+    "element": "바람",
+    "weapone": "양손검"
+  },
+  {
+    "name": "쿠죠 사라",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 714,
+    "region": "이나즈마",
+    "element": "번개",
+    "weapone": "활"
+  },
+  {
+    "name": "토마",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 109,
+    "region": "이나즈마",
+    "element": "불",
+    "weapone": "장병기"
+  },
+  {
+    "name": "고로",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 518,
+    "region": "이나즈마",
+    "element": "바위",
+    "weapone": "활"
+  },
+  {
+    "name": "운근",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 521,
+    "region": "리월",
+    "element": "바위",
+    "weapone": "장병기"
+  },
+  {
+    "name": "쿠키 시노부",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 727,
+    "region": "이나즈마",
+    "element": "번개",
+    "weapone": "한손검"
+  },
+  {
+    "name": "시카노인 헤이조",
+    "grade": 4,
+    "gender": "남성",
+    "birthday": 724,
+    "region": "이나즈마",
+    "element": "바람",
+    "weapone": "법구"
+  },
+  {
+    "name": "콜레이",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 508,
+    "region": "수메르",
+    "element": "풀",
+    "weapone": "활"
+  },
+  {
+    "name": "도리",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 1221,
+    "region": "수메르",
+    "element": "번개",
+    "weapone": "양손검"
+  },
+  {
+    "name": "캔디스",
+    "grade": 4,
+    "gender": "여성",
+    "birthday": 503,
+    "region": "수메르",
+    "element": "물",
+    "weapone": "장병기"
+  }
+]

@@ -6,6 +6,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace genshin_gotcha
 {
@@ -13,6 +15,9 @@ namespace genshin_gotcha
     {
         static void Main(string[] args)
         {
+            
         }
+
+
     }
 }

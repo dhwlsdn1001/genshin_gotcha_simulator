@@ -14,20 +14,9 @@ namespace genshin_gotcha
         public string name;
         public int grade;
         public string gender;
-        public int birthday;
         public string region;
+        public int birthday;
         public string element;
         public string weapone;
-        
-        public Character(string name, int grade, string gender, string region, int birthday, string element, string weapone)
-        {
-            this.name = name;
-            this.grade = grade;
-            this.gender = gender;
-            this.birthday = birthday;
-            this.region = region;
-            this.element = element;
-            this.weapone = weapone;
-        }
     }
 }

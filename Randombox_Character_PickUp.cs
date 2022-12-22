@@ -9,10 +9,10 @@ using System.Diagnostics;
 
 namespace genshin_gotcha
 {
-    public class Weapon
+    public class Randombox_Character_PickUp
     {
         public string name;
-        public int grade;
-        public string type;
+        public List<string> char_list_5;
+        public List<string> char_list_4;
     }
 }
