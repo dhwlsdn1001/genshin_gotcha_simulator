@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -15,6 +15,7 @@ namespace genshin_gotcha
         public List<string> char_list_5;
         public List<string> char_list_4;
         public double version;
-        public string date;
+        public string start_date;
+		public string end_date;
     }
 }
