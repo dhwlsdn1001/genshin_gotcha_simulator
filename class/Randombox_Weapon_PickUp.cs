@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -9,10 +9,11 @@ using System.Diagnostics;
 
 namespace genshin_gotcha
 {
-    public class Randombox_Character_PickUp
+    public class Randombox_Weapon_PickUp
     {
-        public string name;
-        public List<string> char_list_5;
-        public List<string> char_list_4;
+        public List<string> weap_list_5;
+        public List<string> weap_list_4;
+        public double version;
+        public string date;
     }
 }
