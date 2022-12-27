@@ -17,5 +17,7 @@ namespace genshin_gotcha
         public double version;
         public string start_date;
 		public string end_date;
+        public int count_5;
+        public int count_4;
     }
 }

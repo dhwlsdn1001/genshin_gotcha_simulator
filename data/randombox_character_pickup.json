@@ -2,231 +2,461 @@
   {
     "name": "잔에 담긴 시",
     "char_list_5": [ "벤티" ],
-    "char_list_4": [ "바바라", "피슬", "향릉" ]
+    "char_list_4": [ "바바라", "피슬", "향릉" ],
+    "version": 1.0,
+    "start_date": "2020-9-28",
+    "end_date": "2020-10-18",
+    "count_5": 4,
+    "count_4": 14
   },
   {
     "name": "번쩍이는 화염",
     "char_list_5": [ "클레" ],
-    "char_list_4": [ "행추", "노엘", "설탕" ]
+    "char_list_4": [ "행추", "노엘", "설탕" ],
+    "version": 1.0,
+    "start_date": "2020-10-20",
+    "end_date": "2020-11-10",
+    "count_5": 4,
+    "count_4": 14
   },
   {
     "name": "겨울 나라와의 이별",
     "char_list_5": [ "타르탈리아" ],
-    "char_list_4": [ "디오나", "북두", "응광" ]
+    "char_list_4": [ "디오나", "북두", "응광" ],
+    "version": 1.1,
+    "start_date": "2020-11-11",
+    "end_date": "2020-12-1",
+    "count_5": 4,
+    "count_4": 15
   },
   {
     "name": "산야의 시조",
     "char_list_5": [ "종려" ],
-    "char_list_4": [ "신염", "레이저", "중운" ]
+    "char_list_4": [ "신염", "레이저", "중운" ],
+    "version": 1.1,
+    "start_date": "2020-12-1",
+    "end_date": "2020-12-22",
+    "count_5": 4,
+    "count_4": 15
   },
   {
     "name": "심비의 숨결",
     "char_list_5": [ "알베도" ],
-    "char_list_4": [ "피슬", "설탕", "베넷" ]
+    "char_list_4": [ "피슬", "설탕", "베넷" ],
+    "version": 1.2,
+    "start_date": "2020-12-23",
+    "end_date": "2021-1-12",
+    "count_5": 4,
+    "count_4": 16
   },
   {
     "name": "덧없는 인생",
     "char_list_5": [ "감우" ],
-    "char_list_4": [ "향릉", "행추", "노엘" ]
+    "char_list_4": [ "향릉", "행추", "노엘" ],
+    "version": 1.2,
+    "start_date": "2021-1-12",
+    "end_date": "2021-2-2",
+    "count_5": 4,
+    "count_4": 16
   },
   {
     "name": "등불의 초대",
     "char_list_5": [ "소" ],
-    "char_list_4": [ "디오나", "북두", "신염" ]
+    "char_list_4": [ "디오나", "북두", "신염" ],
+    "version": 1.3,
+    "start_date": "2021-2-3",
+    "end_date": "2021-2-17",
+    "count_5": 4,
+    "count_4": 16
   },
   {
     "name": "용등의 춤",
     "char_list_5": [ "각청" ],
-    "char_list_4": [ "응광", "베넷", "바바라" ]
+    "char_list_4": [ "응광", "베넷", "바바라" ],
+    "version": 1.3,
+    "start_date": "2021-2-17",
+    "end_date": "2021-3-2",
+    "count_5": 4,
+    "count_4": 16
   },
   {
     "name": "매화가 만개할 때",
     "char_list_5": [ "호두" ],
-    "char_list_4": [ "행추", "향릉", "중운" ]
+    "char_list_4": [ "행추", "향릉", "중운" ],
+    "version": 1.3,
+    "start_date": "2021-3-2",
+    "end_date": "2021-3-16",
+    "count_5": 4,
+    "count_4": 16
   },
   {
     "name": "잔에 담긴 시",
     "char_list_5": [ "벤티" ],
-    "char_list_4": [ "설탕", "레이저", "노엘" ]
+    "char_list_4": [ "설탕", "레이저", "노엘" ],
+    "version": 1.4,
+    "start_date": "2021-3-17",
+    "end_date": "2021-4-6",
+    "count_5": 5,
+    "count_4": 16
   },
   {
     "name": "겨울 나라와의 이별",
     "char_list_5": [ "타르탈리아" ],
-    "char_list_4": [ "로자리아", "바바라", "피슬" ]
+    "char_list_4": [ "로자리아", "바바라", "피슬" ],
+    "version": 1.4,
+    "start_date": "2021-4-6",
+    "end_date": "2021-4-27",
+    "count_5": 5,
+    "count_4": 16
   },
   {
     "name": "산야의 시조",
     "char_list_5": [ "종려" ],
-    "char_list_4": [ "연비", "노엘", "디오나" ]
+    "char_list_4": [ "연비", "노엘", "디오나" ],
+    "version": 1.5,
+    "start_date": "2021-4-28",
+    "end_date": "2021-5-18",
+    "count_5": 5,
+    "count_4": 17
   },
   {
     "name": "파도가 치는 순간",
     "char_list_5": [ "유라" ],
-    "char_list_4": [ "신염", "행추", "북두" ]
+    "char_list_4": [ "신염", "행추", "북두" ],
+    "version": 1.5,
+    "start_date": "2021-5-18",
+    "end_date": "2021-6-8",
+    "count_5": 5,
+    "count_4": 18
   },
   {
     "name": "번쩍이는 화염",
     "char_list_5": [ "클레" ],
-    "char_list_4": [ "바바라", "설탕", "피슬" ]
+    "char_list_4": [ "바바라", "설탕", "피슬" ],
+    "version": 1.6,
+    "start_date": "2021-6-9",
+    "end_date": "2021-6-29",
+    "count_5": 5,
+    "count_4": 18
   },
   {
     "name": "바람에 지는 낙엽",
     "char_list_5": [ "카에데라하 카즈하" ],
-    "char_list_4": [ "베넷", "설탕", "레이저" ]
+    "char_list_4": [ "베넷", "설탕", "레이저" ],
+    "version": 1.6,
+    "start_date": "2021-6-29",
+    "end_date": "2021-7-20",
+    "count_5": 5,
+    "count_4": 18
   },
   {
     "name": "백로의 정원",
     "char_list_5": [ "카미사토 아야카" ],
-    "char_list_4": [ "응광", "중운", "연비" ]
+    "char_list_4": [ "응광", "중운", "연비" ],
+    "version": 2.0,
+    "start_date": "2021-7-21",
+    "end_date": "2021-8-10",
+    "count_5": 5,
+    "count_4": 18
   },
   {
     "name": "은하수를 물들인 불꽃",
     "char_list_5": [ "요이미야" ],
-    "char_list_4": [ "사유", "디오나", "신염" ]
+    "char_list_4": [ "사유", "디오나", "신염" ],
+    "version": 2.0,
+    "start_date": "2021-8-10",
+    "end_date": "2021-8-31",
+    "count_5": 5,
+    "count_4": 18
   },
   {
     "name": "정토 좇는 천하인",
     "char_list_5": [ "라이덴 쇼군" ],
-    "char_list_4": [ "쿠죠 사라", "향릉", "설탕" ]
+    "char_list_4": [ "쿠죠 사라", "향릉", "설탕" ],
+    "version": 2.1,
+    "start_date": "2021-9-1",
+    "end_date": "2021-9-21",
+    "count_5": 5,
+    "count_4": 19
   },
   {
     "name": "산악에 뜬 구슬",
     "char_list_5": [ "산고노미야 코코미" ],
-    "char_list_4": [ "로자리아", "북두", "행추" ]
+    "char_list_4": [ "로자리아", "북두", "행추" ],
+    "version": 2.1,
+    "start_date": "2021-9-21",
+    "end_date": "2021-10-12",
+    "count_5": 5,
+    "count_4": 20
   },
   {
     "name": "겨울 나라와의 이별",
     "char_list_5": [ "타르탈리아" ],
-    "char_list_4": [ "응광", "중운", "연비" ]
+    "char_list_4": [ "응광", "중운", "연비" ],
+    "version": 2.2,
+    "start_date": "2021-10-13",
+    "end_date": "2021-11-2",
+    "count_5": 5,
+    "count_4": 20
   },
   {
     "name": "매화가 만개할 때",
     "char_list_5": [ "호두" ],
-    "char_list_4": [ "토마", "디오나", "사유" ]
+    "char_list_4": [ "토마", "디오나", "사유" ],
+    "version": 2.2,
+    "start_date": "2021-11-2",
+    "end_date": "2021-11-23",
+    "count_5": 5,
+    "count_4": 20
   },
   {
     "name": "심비의 숨결",
     "char_list_5": [ "알베도" ],
-    "char_list_4": [ "베넷", "노엘", "로자리아" ]
+    "char_list_4": [ "베넷", "노엘", "로자리아" ],
+    "version": 2.3,
+    "start_date": "2021-11-24",
+    "end_date": "2021-12-14",
+    "count_5": 5,
+    "count_4": 21
   },
   {
     "name": "파도가 치는 순간",
     "char_list_5": [ "유라" ],
-    "char_list_4": [ "베넷", "노엘", "로자리아" ]
+    "char_list_4": [ "베넷", "노엘", "로자리아" ],
+    "version": 2.3,
+    "start_date": "2021-11-24",
+    "end_date": "2021-12-14",
+    "count_5": 5,
+    "count_4": 21
   },
   {
     "name": "귀문투연",
     "char_list_5": [ "아라타키 이토" ],
-    "char_list_4": [ "고로", "바바라", "향릉" ]
+    "char_list_4": [ "고로", "바바라", "향릉" ],
+    "version": 2.3,
+    "start_date": "2021-12-14",
+    "end_date": "2022-1-4",
+    "count_5": 5,
+    "count_4": 21
   },
   {
     "name": "속세의 귀객",
     "char_list_5": [ "신학" ],
-    "char_list_4": [ "운근", "응광", "중운" ]
+    "char_list_4": [ "운근", "응광", "중운" ],
+    "version": 2.4,
+    "start_date": "2022-1-5",
+    "end_date": "2022-1-25",
+    "count_5": 5,
+    "count_4": 22
   },
   {
     "name": "등불의 초대",
     "char_list_5": [ "소" ],
-    "char_list_4": [ "운근", "응광", "중운" ]
+    "char_list_4": [ "운근", "응광", "중운" ],
+    "version": 2.4,
+    "start_date": "2022-1-5",
+    "end_date": "2022-1-25",
+    "count_5": 5,
+    "count_4": 22
   },
   {
     "name": "산야의 시조",
     "char_list_5": [ "종려" ],
-    "char_list_4": [ "행추", "북두", "연비" ]
+    "char_list_4": [ "행추", "북두", "연비" ],
+    "version": 2.4,
+    "start_date": "2022-1-25",
+    "end_date": "2022-2-15",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "덧없는 인생",
     "char_list_5": [ "감우" ],
-    "char_list_4": [ "행추", "북두", "연비" ]
+    "char_list_4": [ "행추", "북두", "연비" ],
+    "version": 2.4,
+    "start_date": "2022-1-25",
+    "end_date": "2022-2-15",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "자홍의 벚꽃",
     "char_list_5": [ "야에 미코" ],
-    "char_list_4": [ "피슬", "디오나", "토마" ]
+    "char_list_4": [ "피슬", "디오나", "토마" ],
+    "version": 2.5,
+    "start_date": "2022-2-16",
+    "end_date": "2022-3-8",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "정토 좇는 천하인",
     "char_list_5": [ "라이덴 쇼군" ],
-    "char_list_4": [ "베넷", "신염", "쿠죠 사라" ]
+    "char_list_4": [ "베넷", "신염", "쿠죠 사라" ],
+    "version": 2.5,
+    "start_date": "2022-3-8",
+    "end_date": "2022-3-29",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "산악에 뜬 구슬",
     "char_list_5": [ "산고노미야 코코미" ],
-    "char_list_4": [ "베넷", "신염", "쿠죠 사라" ]
+    "char_list_4": [ "베넷", "신염", "쿠죠 사라" ],
+    "version": 2.5,
+    "start_date": "2022-3-8",
+    "end_date": "2022-3-29",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "푸른 물결 속 가벼운 걸음",
     "char_list_5": [ "카미사토 아야토" ],
-    "char_list_4": [ "설탕", "향릉", "운근" ]
+    "char_list_4": [ "설탕", "향릉", "운근" ],
+    "version": 2.6,
+    "start_date": "2022-3-30",
+    "end_date": "2022-4-19",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "잔에 담긴 시",
     "char_list_5": [ "벤티" ],
-    "char_list_4": [ "설탕", "향릉", "운근" ]
+    "char_list_4": [ "설탕", "향릉", "운근" ],
+    "version": 2.6,
+    "start_date": "2022-3-30",
+    "end_date": "2022-4-19",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "백로의 정원",
     "char_list_5": [ "카미사토 아야카" ],
-    "char_list_4": [ "레이저", "로자리아", "사유" ]
+    "char_list_4": [ "레이저", "로자리아", "사유" ],
+    "version": 2.6,
+    "start_date": "2022-4-19",
+    "end_date": "2022-5-31",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "하늘을 정탐하는 백홍",
     "char_list_5": [ "야란" ],
-    "char_list_4": [ "바바라", "연비", "노엘" ]
+    "char_list_4": [ "바바라", "연비", "노엘" ],
+    "version": 2.7,
+    "start_date": "2022-5-31",
+    "end_date": "2022-6-21",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "등불의 초대",
     "char_list_5": [ "소" ],
-    "char_list_4": [ "바바라", "연비", "노엘" ]
+    "char_list_4": [ "바바라", "연비", "노엘" ],
+    "version": 2.7,
+    "start_date": "2022-5-31",
+    "end_date": "2022-6-21",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "귀문투연",
     "char_list_5": [ "아라타키 이토" ],
-    "char_list_4": [ "쿠키 시노부", "중운", "고로" ]
+    "char_list_4": [ "쿠키 시노부", "중운", "고로" ],
+    "version": 2.7,
+    "start_date": "2022-6-21",
+    "end_date": "2022-7-12",
+    "count_5": 5,
+    "count_4": 23
   },
   {
     "name": "바람에 지는 낙엽",
     "char_list_5": [ "카에데라하 카즈하" ],
-    "char_list_4": [ "시카노인 헤이조", "응광", "토마" ]
+    "char_list_4": [ "시카노인 헤이조", "응광", "토마" ],
+    "version": 2.8,
+    "start_date": "2022-7-13",
+    "end_date": "2022-8-2",
+    "count_5": 5,
+    "count_4": 24
   },
   {
     "name": "번쩍이는 화염",
     "char_list_5": [ "클레" ],
-    "char_list_4": [ "시카노인 헤이조", "응광", "토마" ]
+    "char_list_4": [ "시카노인 헤이조", "응광", "토마" ],
+    "version": 2.8,
+    "start_date": "2022-7-13",
+    "end_date": "2022-8-2",
+    "count_5": 5,
+    "count_4": 24
   },
   {
     "name": "은하수를 물들인 불꽃",
     "char_list_5": [ "요이미야" ],
-    "char_list_4": [ "베넷", "신염", "운근" ]
+    "char_list_4": [ "베넷", "신염", "운근" ],
+    "version": 2.8,
+    "start_date": "2022-8-2",
+    "end_date": "2022-8-23",
+    "count_5": 5,
+    "count_4": 25
   },
   {
     "name": "숲속 순회",
     "char_list_5": [ "타이나리" ],
-    "char_list_4": [ "콜레이", "디오나", "피슬" ]
+    "char_list_4": [ "콜레이", "디오나", "피슬" ],
+    "version": 3.0,
+    "start_date": "2022-8-24",
+    "end_date": "2022-9-9",
+    "count_5": 5,
+    "count_4": 25
   },
   {
     "name": "산야의 시조",
     "char_list_5": [ "종려" ],
-    "char_list_4": [ "콜레이", "디오나", "피슬" ]
+    "char_list_4": [ "콜레이", "디오나", "피슬" ],
+    "version": 3.0,
+    "start_date": "2022-8-24",
+    "end_date": "2022-9-9",
+    "count_5": 5,
+    "count_4": 25
   },
   {
     "name": "덧없는 인생",
     "char_list_5": [ "감우" ],
-    "char_list_4": [ "도리", "설탕", "행추" ]
+    "char_list_4": [ "도리", "설탕", "행추" ],
+    "version": 3.0,
+    "start_date": "2022-9-9",
+    "end_date": "2022-9-27",
+    "count_5": 5,
+    "count_4": 26
   },
   {
     "name": "산악에 뜬 구슬",
     "char_list_5": [ "산고노미야 코코미" ],
-    "char_list_4": [ "도리", "설탕", "행추" ]
+    "char_list_4": [ "도리", "설탕", "행추" ],
+    "version": 3.0,
+    "start_date": "2022-9-9",
+    "end_date": "2022-9-27",
+    "count_5": 5,
+    "count_4": 26
   },
   {
     "name": "황혼을 가르는 번개의 심판",
     "char_list_5": [ "사이노" ],
-    "char_list_4": [ "캔디스", "쿠키 시노부", "사유" ]
+    "char_list_4": [ "캔디스", "쿠키 시노부", "사유" ],
+    "version": 3.1,
+    "start_date": "2022-9-28",
+    "end_date": "2022-10-14",
+    "count_5": 6,
+    "count_4": 27
   },
   {
     "name": "잔에 담긴 시",
     "char_list_5": [ "벤티" ],
-    "char_list_4": [ "캔디스", "쿠키 시노부", "사유" ]
+    "char_list_4": [ "캔디스", "쿠키 시노부", "사유" ],
+    "version": 3.1,
+    "start_date": "2022-9-28",
+    "end_date": "2022-10-14",
+    "count_5": 6,
+    "count_4": 27
   }
 ]

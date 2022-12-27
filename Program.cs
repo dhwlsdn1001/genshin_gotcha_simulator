@@ -16,18 +16,24 @@ namespace genshin_gotcha
     {
         static void Main(string[] args)
         {
-            string json;
-            string datapath = "C:\\projects\\genshin_gotcha\\data";//언제든 변경 가능
-            using (StreamReader r = new StreamReader(datapath + "\\4_grade_character.json"))
+            string datapath = "C:\\projects\\genshin_gotcha\\data\\";//언제든 변경 가능
+            List<Randombox_Character_PickUp> rc = DataSet.JsonToString(datapath, "randombox_character_pickup.json", "cp");
+            List<Randombox_Weapon_PickUp> rw = DataSet.JsonToString(datapath, "randombox_weapon_pickup.json", "wp");
+            Randombox_Always ra = DataSet.JsonToString(datapath, "randombox_always.json", "al");
+            Randombox rb = new Randombox(rc, rw, ra);
+            int select_index = rb.CharSelect();
+            int price = 0;
+            int c5 = 0;
+            int c4 = 0;
+            int pick5 = 0;
+            int pick4 = 0;
+            for (int i = 0; i < 180; i++)
             {
-                json = r.ReadToEnd();
+                rb.RandomChar(ref c5, ref c4, ref pick5, ref pick4, 0, ref price);
+                Console.WriteLine($" {i + 1}");
             }
-            List<Character> ch = JsonConvert.DeserializeObject<List<Character>>(json);
-            for (int i = 0; i < ch.Count; i++)
-            {
 
-                Console.Write("\"" + ch[i].name + "\", ");
-            }
+            
         }
     }
 }

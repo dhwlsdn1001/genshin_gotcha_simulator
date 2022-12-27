@@ -16,5 +16,6 @@ namespace genshin_gotcha
         public List<string> char_list_4;
         public List<string> weap_list_5;
         public List<string> weap_list_4;
+        public List<string> weap_list_3;
     }
 }
