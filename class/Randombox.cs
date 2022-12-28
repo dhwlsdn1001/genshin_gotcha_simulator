@@ -13,22 +13,42 @@ namespace genshin_gotcha
         List<Randombox_Weapon_PickUp> rw;
         Randombox_Always ra;
 
-        public Randombox(List<Randombox_Character_PickUp> rc, List<Randombox_Weapon_PickUp> rw, Randombox_Always ra)
+        public Randombox(string datapath)
         {
-            this.rc = rc;
-            this.rw = rw;
-            this.ra = ra;
+            this.rc = DataSet.JsonToString(datapath, "randombox_character_pickup.json", "cp");
+            this.rw = DataSet.JsonToString(datapath, "randombox_weapon_pickup.json", "wp");
+            this.ra = DataSet.JsonToString(datapath, "randombox_always.json", "al");
         }
 
         public int CharSelect()
         {
-            for(int i = 0; i < rc.Count; i++)
-                Console.WriteLine($"{(i + 1).ToString() + ".", 3} {rc[i].name} : {rc[i].char_list_5[0]} - {rc[i].version.ToString("F1")}\n");
+            for (int i = 0; i < rc.Count; i++)
+                Console.WriteLine($"{(i + 1).ToString() + ".",3} {rc[i].name} : {rc[i].char_list_5[0]} - {rc[i].version.ToString("F1")}\n");
+            Console.WriteLine("===============================");
+            Console.Write("기원 번호 : ");
             int select_index = int.Parse(Console.ReadLine()) - 1;
+            Console.WriteLine("===============================");
             Console.WriteLine($"{rc[select_index].name}");
             Console.WriteLine($"{rc[select_index].version.ToString("F1")} 버전");
             Console.WriteLine($"5성 캐릭터 : {rc[select_index].char_list_5[0]}");
             Console.WriteLine($"4성 캐릭터 : {rc[select_index].char_list_4[0]}, {rc[select_index].char_list_4[1]}, {rc[select_index].char_list_4[2]}");
+            Console.WriteLine("===============================");
+            return select_index;
+        }
+
+        public int WeapSelect()
+        {
+            for (int i = 0; i < rw.Count; i++)
+                Console.WriteLine($"{(i + 1).ToString() + ".",3} {rw[i].weap_list_5[0]}, {rw[i].weap_list_5[1]} - {rw[i].version.ToString("F1")}\n");
+            Console.WriteLine("===============================");
+            Console.Write("기원 번호 : ");
+            int select_index = int.Parse(Console.ReadLine()) - 1;
+            Console.WriteLine("===============================");
+            Console.WriteLine($"{rw[select_index].weap_list_5[0]}, {rw[select_index].weap_list_5[1]}");
+            Console.WriteLine($"{rw[select_index].version.ToString("F1")} 버전");
+            Console.WriteLine($"5성 무기 : {rw[select_index].weap_list_5[0]}, {rw[select_index].weap_list_5[1]}");
+            Console.WriteLine($"4성 무기 : {rw[select_index].weap_list_4[0]}, {rw[select_index].weap_list_4[1]}, {rw[select_index].weap_list_4[2]}, {rw[select_index].weap_list_4[3]}, {rw[select_index].weap_list_4[4]},");
+            Console.WriteLine("===============================");
             return select_index;
         }
 
@@ -38,7 +58,7 @@ namespace genshin_gotcha
             int p5;
             int p4;
 
-            int r_result = r.Next(1, 1000);
+            int r_result = r.Next(1, 1001);
             c5++;
             c4++;
 
@@ -62,7 +82,110 @@ namespace genshin_gotcha
                 price += 160;
                 if (pick5 == 0)//확정천장 아님
                 {
-                    if(r.Next(1, 2) == 1)//픽뚫
+                    if (r.Next(1, 3) == 1)//픽뚫
+                    {
+                        pick5 = 1;
+                        Console.Write($"{ra.char_list_5[r.Next(0, rc[select_index].count_5 - 1)]}");
+                        Inventory.AddInv(ra.char_list_5[r.Next(0, rc[select_index].count_5 - 1)], 5);
+                        return ra.char_list_5[r.Next(0, rc[select_index].count_5 - 1)];
+                    }
+                    else//픽업
+                    {
+                        pick5 = 0;
+                        Console.Write($"{rc[select_index].char_list_5[0]}");
+                        Inventory.AddInv(rc[select_index].char_list_5[0], 5);
+                        return rc[select_index].char_list_5[0];
+                    }
+                }
+                else//확정천장 맞음
+                {
+                    pick5 = 0;
+                    Console.Write($"{rc[select_index].char_list_5[0]}");
+                    Inventory.AddInv(rc[select_index].char_list_5[0], 5);
+                    return rc[select_index].char_list_5[0];
+                }
+            }
+            else if (r_result >= 1001 - p4 && r_result <= 1000)//4성 맞음
+            {
+                Console.Write("4 - ");
+                c4 = 0;
+                price += 160;
+                if (pick4 == 0)//확정천장 아님
+                {
+                    if (r.Next(1, 2) == 1)//픽뚫
+                    {
+                        pick4 = 1;
+                        if (r.Next(1, 2) == 1)//캐릭터
+                        {
+                            Console.Write($"{ra.char_list_4[r.Next(0, rc[select_index].count_4 - 1)]}");
+                            Inventory.AddInv(ra.char_list_4[r.Next(0, rc[select_index].count_4 - 1)], 4);
+                            return ra.char_list_4[r.Next(0, rc[select_index].count_4 - 1)];
+                        }
+                        else//무기
+                        {
+                            Console.Write($"{ra.weap_list_4[r.Next(0, ra.weap_list_4.Count - 1)]}");
+                            Inventory.AddInv(ra.weap_list_4[r.Next(0, ra.weap_list_4.Count - 1)], 4);
+                            return ra.weap_list_4[r.Next(0, ra.weap_list_4.Count - 1)];
+                        }
+                    }
+                    else//픽업
+                    {
+                        pick4 = 0;
+
+                        Console.Write($"{rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)]}");
+                        Inventory.AddInv(rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)], 4);
+                        return rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)];
+                    }
+                }
+                else//확정천장 맞음
+                {
+                    pick4 = 0;
+                    Console.Write($"{rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)]}");
+                    Inventory.AddInv(rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)], 4);
+                    return rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)];
+                }
+            }
+            else//3성 맞음
+            {
+                Console.Write("3 - ");
+                Console.Write($"{ra.weap_list_3[r.Next(0, ra.weap_list_3.Count - 1)]}");
+                price += 160;
+                Inventory.AddInv(ra.weap_list_3[r.Next(0, ra.weap_list_3.Count - 1)], 3);
+                return ra.weap_list_3[r.Next(0, ra.weap_list_3.Count - 1)];
+            }
+        }
+
+        /*public string RandomWeap(ref int c5, ref int c4, ref int pick5, ref int pick4, int select_index, ref int price, ref int point, ref int weap_select)
+        {
+            Random r = new Random();
+            int p5;
+            int p4;
+
+            int r_result = r.Next(1, 1000);
+            c5++;
+            c4++;
+
+            if (c5 >= 0 && c5 <= 62)
+                p5 = 7;
+            else if (c5 == 77)
+                p5 = 1000;
+            else
+                p5 = 7 + 70 * (c5 - 62);
+            if (c4 == 8)
+                p4 = 660;
+            else if (c4 == 9)
+                p4 = 1000;
+            else
+                p4 = 60;
+
+            if (r_result >= 1 && r_result <= p5)//5성 맞음
+            {
+                Console.Write("5 - ");
+                c5 = 0;
+                price += 160;
+                if (pick5 == 0)//확정천장 아님
+                {
+                    if (r.Next(1, 2) == 1)//픽뚫
                     {
                         pick5 = 1;
                         Console.Write($"{ra.char_list_5[r.Next(0, rc[select_index].count_5 - 1)]}");
@@ -82,52 +205,6 @@ namespace genshin_gotcha
                     return rc[select_index].char_list_5[0];
                 }
             }
-            else//5성 아님
-            {
-                r_result = r.Next(1, 1000);
-                if (r_result >= 1 && r_result <= p4)//4성 맞음
-                {
-                    Console.Write("4 - ");
-                    c4 = 0;
-                    price += 160;
-                    if(pick4 == 0)//확정천장 아님
-                    {
-                        if(r.Next(1, 2) == 1)//픽뚫
-                        {
-                            pick4 = 1;
-                            if(r.Next(1, 2) == 1)//캐릭터
-                            {
-                                Console.Write($"{ra.char_list_4[r.Next(0, rc[select_index].count_4 - 1)]}");
-                                return ra.char_list_4[r.Next(0, rc[select_index].count_4 - 1)];
-                            }
-                            else//무기
-                            {
-                                Console.Write($"{ra.weap_list_4[r.Next(0, ra.weap_list_4.Count - 1)]}");
-                                return ra.weap_list_4[r.Next(0, ra.weap_list_4.Count - 1)];
-                            }
-                        }
-                        else//픽업
-                        {
-                            pick4 = 0;
-                            Console.Write($"{rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)]}");
-                            return rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)];
-                        }
-                    }
-                    else//확정천장 맞음
-                    {
-                        pick4 = 0;
-                        Console.Write($"{rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)]}");
-                        return rc[select_index].char_list_4[r.Next(0, rc[select_index].char_list_4.Count - 1)];
-                    }
-                }
-                else//3성 맞음
-                {
-                    Console.Write("3 - ");
-                    Console.Write($"{ra.weap_list_3[r.Next(0, ra.weap_list_3.Count - 1)]}");
-                    price += 160;
-                    return ra.weap_list_3[r.Next(0, ra.weap_list_3.Count - 1)];
-                }
-            }
-        }
+        }*/
     }
 }

@@ -17,21 +17,23 @@ namespace genshin_gotcha
         static void Main(string[] args)
         {
             string datapath = "C:\\projects\\genshin_gotcha\\data\\";//언제든 변경 가능
-            List<Randombox_Character_PickUp> rc = DataSet.JsonToString(datapath, "randombox_character_pickup.json", "cp");
-            List<Randombox_Weapon_PickUp> rw = DataSet.JsonToString(datapath, "randombox_weapon_pickup.json", "wp");
-            Randombox_Always ra = DataSet.JsonToString(datapath, "randombox_always.json", "al");
-            Randombox rb = new Randombox(rc, rw, ra);
+            Randombox rb = new Randombox(datapath);
             int select_index = rb.CharSelect();
+            int time = DataSet.IntInput("기원 횟수 : ");
             int price = 0;
-            int c5 = 0;
+            int c5 = DataSet.IntInput("기원 스택(0 ~ 80) : ");
             int c4 = 0;
-            int pick5 = 0;
+            int pick5 = DataSet.IntInput("천장 종류(반천장 = 0, 확정천장 = 1) : ");
             int pick4 = 0;
-            for (int i = 0; i < 180; i++)
+            int point = 0;
+            int weap_select;
+            Console.WriteLine("===============================");
+            for (int i = 0; i < time; i++)
             {
-                rb.RandomChar(ref c5, ref c4, ref pick5, ref pick4, 0, ref price);
+                rb.RandomChar(ref c5, ref c4, ref pick5, ref pick4, select_index, ref price);
                 Console.WriteLine($" {i + 1}");
             }
+            Inventory.PrintInv();
 
             
         }

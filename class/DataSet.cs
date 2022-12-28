@@ -23,17 +23,20 @@ namespace genshin_gotcha
             {
                 case "cp":
                     return JsonConvert.DeserializeObject<List<Randombox_Character_PickUp>>(json);
-                    break;
                 case "wp":
                     return JsonConvert.DeserializeObject<List<Randombox_Weapon_PickUp>>(json);
-                    break;
                 case "al":
                     return JsonConvert.DeserializeObject<Randombox_Always>(json);
                 default:
                     Console.WriteLine("wrong file");
                     return null;
-                    break;
             }
+        }
+
+        public static int IntInput(string context)
+        {
+            Console.Write(context);
+            return int.Parse(Console.ReadLine());
         }
     }
 }
