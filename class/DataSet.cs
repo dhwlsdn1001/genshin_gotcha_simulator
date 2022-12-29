@@ -38,5 +38,11 @@ namespace genshin_gotcha
             Console.Write(context);
             return int.Parse(Console.ReadLine());
         }
+
+        public static string StringInput(string context)
+        {
+            Console.Write(context);
+            return Console.ReadLine();
+        }
     }
 }
